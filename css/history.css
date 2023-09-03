@@ -1,0 +1,42 @@
+#myUL li a {
+    border: 1px solid #1d2227;
+    margin-top: -1px;
+    background-color: #b2aeb2; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black; 
+    display: block; 
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #429595; 
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.use {
+    color: #aa064b;
+    
+}
+.web {
+    color: #429595; 
+}
+body{
+  background-color: #1d2227;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
